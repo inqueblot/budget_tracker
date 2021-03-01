@@ -45,13 +45,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <script src="index.js"></script>
-  <script>
-    const request = indexedDB.open("budgetDatabase", 1);
+  <script src="indexedDB.js"></script>
 
-    request.onsuccess = event => {
-      console.log(request.result)
-    }
-  </script>
 </body>
 
 </html>
